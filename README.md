@@ -64,3 +64,61 @@ Images to use
 <!--<img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg " width="400px" height="215px">-->
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+body{
+   color: #878787; 
+   margin: 0;  
+}
+
+header{
+    background-color: orange;
+}
+
+h1{ 
+    font-size: 90px;
+    color: white;
+}
+
+h2{
+    font-size: 53px;
+}
+
+h3{
+    font-size: 20px;  
+    color: #48525c; 
+    
+}
+
+#main-footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 10px orange;
+}
+
+.primary-content{
+    text-align: center
+}
+
+.secondary-content{
+  
+}
+
+.main-header {
+    
+    
+}
+
+.t-border{
+     border-top: 2px solid gray;
+}
+
