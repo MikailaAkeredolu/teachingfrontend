@@ -78,6 +78,7 @@ Images to use
 body{
    color: #878787; 
    margin: 0;  
+font-family: Helvetica, Arial, sans-serif ;
 }
 
 header{
@@ -88,15 +89,22 @@ h1{
     font-size: 5.625em; 
     color: white;
     text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Pacifico', cursive;
 }
 
 h2{
-    font-size: 53px;
+    font-size: 3.3125em;
+    text-decoration: underline;
+    font-weight: normal;
+    margin-bottom: .5em;
+    text-decoration: none;
 }
 
 h3{
-    font-size: 20px;  
+    font-size: 1.25em;  
     color: rgb(255,169,73);
+    margin-bottom: 1.7em;
 }
 
 #main-footer{
@@ -143,10 +151,30 @@ a:hover{
     
 }
 
+a:link{
+    text-decoration: none;
+}
+
 .primary-content, .secondary-content{
-    width: 60%;
+    width: 80%;
+    margin: auto;
 } 
 
 .primary-content, .main-header{
     text-align: center;
+}
+
+footer p{
+    font-style: italic;
+}
+
+.wildlife{
+color: white; 
+background-color: #434a52; 
+padding-top: 100px; 
+padding-right: 120px;
+padding-bottom: 100px;
+padding-left: 120px;
+border: 10px solid #ffa949; 
+margin: 105px 0 60px 0;
 }
