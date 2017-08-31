@@ -85,8 +85,9 @@ header{
 }
 
 h1{ 
-    font-size: 90px;
+    font-size: 5.625em; 
     color: white;
+    text-transform: uppercase;
 }
 
 h2{
@@ -95,14 +96,15 @@ h2{
 
 h3{
     font-size: 20px;  
-    color: #48525c; 
-    
+    color: rgb(255,169,73);
 }
 
 #main-footer{
     padding-top: 60px;
     padding-bottom: 60px;
-    border-bottom: solid 10px orange;
+    border-bottom: solid 10px #ffa949;
+    background-color: lightblue;
+    text-align: center;
 }
 
 .primary-content{
@@ -114,11 +116,37 @@ h3{
 }
 
 .main-header {
-    
-    
+    color: #ffa949;
 }
 
 .t-border{
      border-top: 2px solid gray;
 }
 
+.title{ 
+    color: white;
+  font-size: 1.625em;
+}
+
+ol li{
+    /*background-color: tomato;*/
+    color: #878787;
+    margin-bottom: 5px;
+}
+
+a:visited {
+color :orange;
+}
+
+a:hover{
+    color : forestgreen;
+    
+}
+
+.primary-content, .secondary-content{
+    width: 60%;
+} 
+
+.primary-content, .main-header{
+    text-align: center;
+}
